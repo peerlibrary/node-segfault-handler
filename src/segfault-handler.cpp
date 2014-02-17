@@ -20,6 +20,8 @@
 using namespace v8;
 using namespace node;
 
+// TODO: Use gdb to get backtrace? http://software.jamezone.org/HOWTO/traceme.html
+
 #define STDERR_FD 2
 
 static Persistent<Function> callback;
